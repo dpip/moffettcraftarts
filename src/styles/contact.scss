@@ -1,0 +1,43 @@
+.container-contact {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.contact-photo {
+    width: 50%;
+    height: 368px;
+    object-fit: cover;
+    margin-top: 16px;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    h2 {
+        margin-top: 12px;
+        margin-bottom: 8px;
+        padding: 0rem 1rem;
+    }
+    h6 {
+        margin-top: 0px;
+        padding: 0rem 1rem;
+        font-style: italic;
+    }
+    .contact-info-item {
+        display: flex;
+        flex-direction: column;
+        padding: 0rem 0rem 1rem 1rem;
+        width: 100%;
+        justify-content: center;
+        span {
+            padding-bottom: 0.5rem;
+            font-weight: bolder;
+            font-size: 0.67em;
+        }
+        a {
+            text-decoration: none;
+            color: #0f62fe;
+        }
+    }
+}
