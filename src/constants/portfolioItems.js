@@ -60,14 +60,6 @@ export const portfolioItems = [
         description: '',
         type: 'tall'
     },
-    {
-        image: require('../images/shelldish.png').default,
-        title: '',
-        description: '',
-        type: 'tall'
-    },
-    
-    
 ]
 
 // {

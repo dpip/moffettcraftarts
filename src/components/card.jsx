@@ -8,9 +8,6 @@ const Card = (props) => {
     <div className={`card ${props.type}`}>
         <div className={'card-content'}>
             <img src={props.image} alt={props.alt}/>
-            {/* <div className="description">
-                {props.text}
-            </div> */}
         </div>
     </div>
   )
